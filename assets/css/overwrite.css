@@ -1,0 +1,7 @@
+html, body {
+	font-family: 'Mitr', sans-serif;
+	}
+	
+.image.avatar48 img {
+	border-radius: 50px;
+}
