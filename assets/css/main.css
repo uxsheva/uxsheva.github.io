@@ -1566,9 +1566,9 @@
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: rgba(0,0,0,.7);
 		font-family: "Quattrocento Sans", Helvetica, sans-serif;
-		font-size: 16pt;
+		font-size: 13pt;
 		font-weight: 400;
 		line-height: 1.75em;
 	}
@@ -1590,7 +1590,7 @@
 		}
 
 	strong, b {
-		color: #787878;
+		color: rgba(0,0,0,.7);
 		font-weight: 400;
 	}
 
@@ -1604,7 +1604,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Montserrat", Helvetica, sans-serif;
-		color: #787878;
+		color: rgba(0,0,0,.7);
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -1753,7 +1753,7 @@
 	}
 
 	label {
-		color: #787878;
+		color: rgba(0,0,0,.7);
 		display: block;
 		font-size: 0.9em;
 		font-weight: 400;
@@ -1857,7 +1857,7 @@
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #a2a2a2;
+			color: rgba(0,0,0,.7);
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -1895,8 +1895,8 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #787878;
-			border-color: #787878;
+			background: rgba(0,0,0,.7);
+			border-color: rgba(0,0,0,.7);
 			color: #fff;
 			content: '\f00c';
 		}
@@ -2275,7 +2275,7 @@
 		}
 
 		table th {
-			color: #787878;
+			color: rgba(0,0,0,.7);
 			font-size: 0.9em;
 			font-weight: 400;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -2330,10 +2330,10 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		background-color: transparent;
+		background-color: #ff770b;
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
-		color: #787878 !important;
+		color: rgba(255,255,255,1) !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2351,17 +2351,18 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #ff770b;
-			color: #ff770b !important;
+			color: rgba(255,255,255,1) !important;
+			background-color: #e26400;
+			border: solid 3px #efefef;
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #ff770b;
-			color: #ff770b !important;
+			background-color: #e26400;
+			border: solid 3px #efefef;
+
 		}
 
 		input[type="submit"].icon,
@@ -2882,7 +2883,7 @@
 				}
 
 					#header h1 br {
-						display: none;
+						
 					}
 
 		/* Footer */
@@ -3111,7 +3112,7 @@
 			}
 
 				#header h1 br {
-					display: none;
+				
 				}
 
 		/* Footer */
